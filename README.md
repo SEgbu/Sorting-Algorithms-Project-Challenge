@@ -3,7 +3,7 @@
 
 Basic Specification – the program will:
 + [x] Requirement 1: Create a list of unsorted random integers
-+ [ ] Requirement 2: Be able to perform a bubble sort or an insertion sort on a list
++ [x] Requirement 2: Be able to perform a bubble sort or an insertion sort on a list
 + [ ] Requirement 3: Calculate and record the time taken to perform the selected sort.
 + [ ] Requirement 4: Provide the user with relevant and appropriate feedback.
 + [ ] Requirement 5: Add a command line interface which allows the user to specific the size of the list and the type of sort to use.
