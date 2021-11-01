@@ -12,17 +12,17 @@ Basic Specification – the program will:
 
 
 + **Task 1 Planning: [10 marks]**
-+ Analyse the requirements and decompose the problem [2 marks]
-+ Produce a brief design document showing the components of your proposed solution (including appropriate pseudocode and flowcharts)  [8 marks]
+  + Analyse the requirements and decompose the problem [2 marks]
+  + Produce a brief design document showing the components of your proposed solution (including appropriate pseudocode and flowcharts)  [8 marks]
 + **Task 2 Development: [20 marks]**
-+ Develop the solution according to the design document produced in task 1.
-+ Ensure your code is suitable structured and annotated with comments
+  + Develop the solution according to the design document produced in task 1.
+  + Ensure your code is suitable structured and annotated with comments
 + **Task 3 Testing: [20 marks]**
-+ Test the program using the following datasets sizes and both sorting algorithms:
-+ 100 elements
-+ 1000 elements
-+ 5000 elements
-+ Produce annotated screen prints of the application running (evidence of testing). Comment on the performance of each algorithm
+  + Test the program using the following datasets sizes and both sorting algorithms:
+  + 100 elements
+  + 1000 elements
+  + 5000 elements
+  + Produce annotated screen prints of the application running (evidence of testing). Comment on the performance of each algorithm
 + **Task 4: Submission Instruction**
-+ Copy and paste your code into a single word processed document, along with your planning document, evidence of the program running and test results.
-+ Save the document in PORTABLE DOCUMENT FORMAT (PDF) only and upload here for marking.
+  + Copy and paste your code into a single word processed document, along with your planning document, evidence of the program running and test results.
+  + Save the document in PORTABLE DOCUMENT FORMAT (PDF) only and upload here for marking.
