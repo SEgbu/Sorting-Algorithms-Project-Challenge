@@ -1,4 +1,6 @@
 import random
+import time
+
 
 # List of random integers
 arr = random.sample(range(0, 10), 10)
@@ -6,6 +8,9 @@ print("The random list: %s" %str(arr))
 
 # Bubble sort
 sorting = True
+
+# Start timer
+startTime = time.time()
 
 while sorting == True:
     for loopi in range(len(arr)):
@@ -15,8 +20,9 @@ while sorting == True:
                 continue
             elif arr[i] <= arr[i + 1]:
                 continue
-
+    # Stop sorting
     sorting = False
 
 print ("Sorted using bubble sort: %s" %str(arr))
+print ("The time elasped of bubble sort: " + str(time.time() - startTime))
 
