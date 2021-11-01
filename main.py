@@ -7,12 +7,12 @@ print("The random list: %s" %str(arr))
 
 # Insertion sort
 sorted = [arr[0]] # The final sorted list
-sorting = True
+insertionSorting = True
 
 # Start timer
-startTime = time.time()
+insertionSortStartTime = time.time()
 
-while sorting == True:
+while insertionSorting == True:
     for i in range(len(arr)):
         if i == 0:
             continue
@@ -26,10 +26,29 @@ while sorting == True:
                 else: 
                     sortedI -= 1
                     continue
-    sorting = False
+    
+    insertionSortings = False
 
-print("The time elasped of insertion sort: " + str(time.time() - startTime))
+print("The time elasped of insertion sort: " + str(time.time() - insertionSortStartTime))
 print("Sorted using insertion sort: %s" %sorted)
 
 
+# Bubble sort
+bubbleSorting = True
+
+bubbleSortStartTime = time.time()
+
+while bubbleSorting == True:
+    for loopi in range(len(arr)):
+        for i in range(len(arr) - 1): # Iterate through unsorted list
+            if arr[i] > arr[i + 1]:
+                arr[i], arr[i + 1] = arr[i + 1], arr[i]
+                continue
+            elif arr[i] <= arr[i + 1]:
+                continue
+    # Stop sorting
+    bubbleSorting = False
+
+print ("Sorted using bubble sort: %s" %str(arr))
+print ("The time elasped of bubble sort: " + str(time.time() - bubbleSortStartTime))
 
